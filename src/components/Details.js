@@ -1,12 +1,17 @@
 import React from "react";
 
-function Details({specialty, weight, greased}) {
-  console.log(specialty, weight, greased)
+function Details({ hog }) {
+  console.log( hog.greased )
+  const isGreased = hog.greased ? 'true' : 'false'
+
   return (
-    <ul>
-      <li>{specialty}</li>
-      <li>{weight}</li>
-      <li>{greased}</li>
+    <ul className="hoggyText">
+      <li>SPECIALTY: {hog.specialty}</li>
+      <li>WEIGHT: {hog.weight}</li>
+      <li>GREASED: {isGreased}</li>
+      <li className="achievementText">
+        ACHIEVEMENT: {hog['highest medal achieved']}
+      </li>      
     </ul>
   )
 }

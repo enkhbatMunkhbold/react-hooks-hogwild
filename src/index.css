@@ -4,6 +4,14 @@ body {
   font-family: sans-serif;
 }
 
+section {
+  margin: 3rem;
+}
+
+button {
+  margin: 5px;
+}
+
 .App {
   margin: 0% 5% 0% 5%;
   text-align: center;
@@ -68,10 +76,6 @@ ul {
   text-align: left;
 }
 
-img {
-  size: 10px;
-}
-
 .subtleText {
   color: #D1D1D1;
   font-size: .75em;
@@ -132,6 +136,13 @@ img {
   transform: scale(1.05);
 }
 
+/* .sorting {
+  margin-top: 20px;
+} */
+
+.sort-label {
+  margin-right: 10px;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 5s linear;
@@ -144,6 +155,9 @@ img {
   clear: both;
 }
 
+.Filter {
+  margin-top: 20px;
+}
 
 @keyframes App-logo-spin {
   from {

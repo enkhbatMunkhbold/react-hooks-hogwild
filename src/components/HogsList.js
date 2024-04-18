@@ -10,9 +10,11 @@ function HogsList({hogs}) {
   })
 
   return (
-    <div className="ui grid container">
+    <section>
+      <div className="ui grid container">
       {displayHogsList}
-    </div>    
+    </div> 
+    </section>       
   )
 }
 
